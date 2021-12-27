@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">KidZone</string>
+    <string name="login">logIn</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="log_in">Log In</string>
+    <string name="backarrowimg">backarrowimg</string>
+    <string name="lessons">Lessons</string>
+    <string name="collect_stars">Collect Stars</string>
+    <string name="take_a_lesson">Take A Lesson</string>
+    <string name="topics_all">Topics : All</string>
+    <string name="topics_name">Arabic</string>
+    <string name="Lessons_number">6 Lessons</string>
+    <string name="lesson_checkbox_text">Alphabet</string>
+    <string name="rhymes">Rhymes</string>
+    <string name="playbtn">playbtn</string>
+    <string name="Rhymes_topics_name">Arabic</string>
+    <string name="video_topics_num">6 videos</string>
+    <string name="learnerpic">learnerPic</string>
+    <string name="LearnerName">John Junior</string>
+    <string name="earned_badges">Earned Badges 3/14</string>
+    <string name="badgepic">badgepic</string>
+    <string name="greetings">greetings</string>
+    <string name="good_morning_students">Good Morning, </string>
+    <string name="get_into_classroom">Get Into ClassRoom</string>
+    <string name="book">book</string>
+    <string name="starimage">starImage</string>
+    <string name="_0">0</string>
+    <string name="get_stars">Get Stars</string>
+
+    //badges
+
+    <string name="newBeeBadge">New Bee</string>
+    <string name="newBeeBadgeDetails">complete your first 3 lessons</string>
+
+    <string name="beginnerBadge">Beginner</string>
+    <string name="beginnerBadgeDetails">complete 3 lessons from each topic</string>
+    <string name="smartBadge">Smart</string>
+    <string name="smartBadgeDetails">complete any 10 lessons</string>
+
+
+    <string name="scholarBadge">Scholar</string>
+    <string name="scholarBadgeDetails">complete at least 3 topics</string>
+    <string name="juniorBadge">Junior</string>
+    <string name="juniorBadgeDetails">complete all lessons from 1 topic</string>
+
+    <string name="curiousBadge">Curious</string>
+    <string name="curiousBadgeDetails">complete at least 1 lesson from each topic</string>
+    <string name="talentedBadge">Talented</string>
+    <string name="talentedBadgeDetails">complete all topics </string>
+    <string name="geniousBadgeDetails">Collect 1k Stars</string>
+    <string name="gebiousBadge">Genious</string>
+
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="horizontal"
+    tools:context=".DashBoardActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/green_dark"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="16dp"
+        app:cardMaxElevation="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <ProgressBar
+            android:id="@+id/studentProgressCount"
+            style="?android:attr/progressBarStyle"
+            android:layout_marginTop="30dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:progress="10"
+            android:progressDrawable="@color/green_dark"
+            android:progressTint="@color/green_dark"
+            android:scrollbarSize="1dp" />
+
+        <TextView
+            android:id="@+id/getIntoClassText"
+            android:layout_width="match_parent"
+            android:layout_marginStart="150dp"
+            android:layout_height="100dp"
+            android:text="@string/get_into_classroom"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@color/green_dark"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:id="@+id/bookImage"
+            android:layout_width="162dp"
+            android:layout_height="71dp"
+android:layout_marginStart="180dp"
+            android:layout_marginTop="100dp"
+            android:contentDescription="@string/book"
+            app:srcCompat="@drawable/ic_baseline_menu_book_24" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/greetingText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/greetings"
+        android:fontFamily="sans-serif"
+        android:text="@string/good_morning_students"
+        android:textAlignment="textStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/green_dark"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:cardBackgroundColor="@color/off_red"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="16dp"
+        app:cardMaxElevation="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/takeLessonQuote"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/greetingText">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/collect_star_badge"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/takeLessonQuote"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:fontFamily="serif"
+        android:text="@string/take_a_lesson"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintTop_toBottomOf="@+id/cardView"
+        app:layout_constraintBottom_toTopOf="@+id/cardView1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
